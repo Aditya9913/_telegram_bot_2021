@@ -1,6 +1,6 @@
 import logging
 from telegram.ext import *
-import responses
+import response
 
 API_KEY = '1974819592:AAGFdau28S_KPYYSCeYQD5HDzaB3Jz0a13w'
 
@@ -54,3 +54,6 @@ if __name__ == '__main__':
     # Run the bot
     updater.start_polling(1.0)
     updater.idle()
+
+    
+    main()
